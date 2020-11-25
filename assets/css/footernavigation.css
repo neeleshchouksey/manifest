@@ -1,0 +1,38 @@
+
+.footer_grid ul li a{
+	padding: 2.5% 0%;
+	display: block;
+	margin-left: 0px;
+	padding-left: 0px;
+	text-transform: capitalize;
+	transition: all 0.5s ease 0s;
+	font-size: 15px;
+	color: #333;
+}
+.mar_bootum{
+	padding: 4% 0% 1.5% 0%;
+	font-size: 18px;
+}
+.bac_image{
+	background: url('../images/common-img/center-expertis.png') no-repeat scroll left bottom rgba(0, 0, 0, 0);
+}
+.bac_image1{
+	background:url('../images/common-img/center-styl.png') no-repeat scroll left bottom rgba(0, 0, 0, 0);
+}
+.bac_image2{
+	background:url('../images/common-img/center-styl2.png') no-repeat scroll left bottom rgba(0, 0, 0, 0);
+}
+.bac_image3{
+	background:url('../images/common-img/center-styles.png') no-repeat scroll left bottom rgba(0, 0, 0, 0);
+}
+.footer_grid ul li a:hover{
+	color: #056AB2; 
+	transition: all 0.5s ease 0s;
+}
+.background_color_footer{
+	background-color: #fff;
+	color: #333;
+}
+.font_color{
+	color:#333;
+}

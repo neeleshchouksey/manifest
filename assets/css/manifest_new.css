@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*index*/
+
+.icon{
+	margin-right:25px;
+	}
+	
+	/*testimonial*/
+	
+.test{
+	 padding:10px;
+	 border:1px solid #EDEDED;
+	 background:white;
+		}
+
+ /*Blog*/
+.blog_icon{
+	border-bottom:1px solid #ededed; 
+	border-top:1px solid #ededed;
+	 padding:10px 0;
+	}
+	
+	/*contact us*/
+	
+.cont_info{
+	border-bottom:2px solid #2986E2;
+	width:100px;
+	}

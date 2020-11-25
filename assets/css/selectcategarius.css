@@ -1,0 +1,12 @@
+@charset "utf-8";
+	/* CSS Document */
+#right-panel-cat ul {
+	overflow-y: auto; 
+	background-color: bisque;
+	}
+#right-panel-cat ul li {
+	display: inline-block;
+	}
+.active {
+	background-color: #ffffcc;
+	}
