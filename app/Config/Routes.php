@@ -32,10 +32,27 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-$stri = $_SERVER['QUERY_STRING'];
-if(isset($_SERVER['QUERY_STRING'])){
-    $route['(:any)'] = str_replace('-', '', $stri);
-    $route['overview'] = "aboutus";
+
+
+
+	
+    //$route['(:any)'] = str_replace('-', '', $stri);
+    //$routes->add('(mi/:any)', str_replace('-', '', $stri));
+
+
+
+$routes->setTranslateURIDashes(true);
+
+$uri = $this->request->uri;
+//$stri = $uri->getSegment(2);
+$stri = $uri->getPath();
+if(isset($this->request->uri)){
+	//echo '<pre>';print_r(str_replace('-', '', $stri));exit;
+    
+    //$route['(:any)'] = str_replace('-', '', $stri);
+    //$routes->add('mi/(:any)', str_replace('-', '', $stri));
+
+    //$route['overview'] = "aboutus";
 }
 /**
  * --------------------------------------------------------------------
