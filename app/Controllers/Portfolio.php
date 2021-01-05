@@ -1,6 +1,7 @@
 <?php namespace App\Controllers;
 use App\Models\CommonModel;
 use App\Models\MiModel;
+use Mobile_Detect;
 
 class Portfolio extends BaseController {
 
@@ -42,10 +43,10 @@ class Portfolio extends BaseController {
 
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		//echo "<pre>";print_r($data);die;

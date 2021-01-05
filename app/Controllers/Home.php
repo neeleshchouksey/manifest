@@ -1,6 +1,7 @@
 <?php namespace App\Controllers;
 
 use App\Models\CommonModel;
+use Mobile_Detect;
 
 class Home extends BaseController
 {
@@ -13,7 +14,11 @@ class Home extends BaseController
         $data['title']= 'Web Design & Development | Mobile App Development | Digital Marketing Company India';
         $data['keywords'] = "Social Media Marketing, Social Media Marketing Services, Top Advertising Agencies, Advertisement, Best Marketing Companies, Animated video in india, Video maker, Seo and Internet Marketing Services, Online Digital Seo, Web Design Agency, Web Design Company, Responsive Web Design, Web Development Company, Website Creation,Ecommerce website development, App Store, Ios App Development Service.";
         $data['description']= "Manifest infotech provides the best services of web design and development, digital marketing, logo banner, social media, mobile app development, Seo in india.";
-
+        $detect = new Mobile_Detect();
+        if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+            $data['mobile'] = 1;
+        else
+            $data['mobile'] = 4;
         echo view('includes/header',$data);
         echo view('home');
         echo view('includes/footer');

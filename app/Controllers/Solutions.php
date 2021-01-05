@@ -1,5 +1,6 @@
 <?php namespace App\Controllers;
 use App\Models\CommonModel;
+use Mobile_Detect;
 
 class Solutions extends BaseController {
 
@@ -13,10 +14,10 @@ class Solutions extends BaseController {
 			PHP, Android, iOS, Web Design, Cake PHP, Codeigniter, Zend, Wordpress, Drupal, Joomla, HTML, CSS, Javascript, Ajax, jquery, ASP.Net";
 		$data['description']= "Turn your business ideas into reality with the best web solutions like CRM application, E-Commerece website & softwares for E- learning & other. For more details call now.";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);

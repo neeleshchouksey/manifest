@@ -1,5 +1,6 @@
 <?php namespace App\Controllers;
 use App\Models\CommonModel;
+use Mobile_Detect;
 
 class Services extends BaseController {
 	public function index()
@@ -11,10 +12,10 @@ class Services extends BaseController {
 		$data['keywords']= "Web Development, PHP Applications Development, Website Designing, Redesign Website, Website Maintenance Service, CMS Website Package, Mobile Applications Development, Web Applications Development, Web Hosting Services, Website Promotion, SEO Services, Search Engines Marketing, E-marketing, Social Media Marketing, Graphic Design India";
 		$data['description']= "Get exclusive android application & website development services & give exploseure to your business with digital marketing to make an effective online presence. Explore now!";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);

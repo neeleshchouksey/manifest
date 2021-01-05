@@ -1,6 +1,7 @@
 <?php namespace App\Controllers;
 use App\Models\CommonModel;
 use App\Models\MiModel;
+use Mobile_Detect;
 
 class Mi extends BaseController {
 
@@ -27,10 +28,11 @@ class Mi extends BaseController {
 		$data['keywords']= "Social Media Marketing, Social Media Marketing Services, Top Advertising Agencies, Advertisement, Best Marketing Companies, Animated video in india, Video maker, Seo and Internet Marketing Services, Online Digital Seo, Web Design Agency, Web Design Company, Responsive Web Design, Web Development Company, Website Creation,Ecommerce website development, App Store, Ios App Development Service.";
 		$data['description']= "Manifest infotech provides the best services of web design and development, digital marketing, logo banner, social media, mobile app development, Seo in india.";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+        $detect = new Mobile_Detect();
+
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -47,10 +49,10 @@ class Mi extends BaseController {
 		$data['keywords']= "Hiring in IT Sector, Hiring in IT Companies, IT Jobs in Indore, Jobs for PHP Developer, Jobs for android Developer, Jobs for web developer, Jobs for web designer, Jobs for testers, Jobs for QA, jobs for Business development executive, Jobs for HR, Vaccany";
 		$data['description']= "Are you a IT fresher or experienced? Work with a leading IT company in indore, jobs for PHP, developers & more with an effective package & growth opportunities. Hurry we are hiring now!";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -68,10 +70,10 @@ class Mi extends BaseController {
 		$data['keywords']= "Social Media Marketing, Social Media Marketing Services, Top Advertising Agencies, Advertisement, Best Marketing Companies, Animated video in india, Video maker, Seo and Internet Marketing Services, Online Digital Seo, Web Design Agency, Web Design Company, Responsive Web Design, Web Development Company, Website Creation,Ecommerce website development, App Store, Ios App Development Service.";
 		$data['description']= "Manifest infotech provides the best services of web design and development, digital marketing, logo banner, social media, mobile app development, Seo in india.";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -100,10 +102,10 @@ class Mi extends BaseController {
 		$data['description']= "";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -121,9 +123,9 @@ class Mi extends BaseController {
 		$data['keywords']= "";
 
 		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -140,10 +142,10 @@ class Mi extends BaseController {
 		$data['description']= "";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -160,10 +162,10 @@ class Mi extends BaseController {
 		$data['description']= "";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -180,10 +182,10 @@ class Mi extends BaseController {
 		$data['description']= "";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -200,10 +202,10 @@ class Mi extends BaseController {
 		$data['description']= "";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -220,10 +222,10 @@ class Mi extends BaseController {
 		$data['description']= "Analyze and Planning is the first step for software development life cycle through agile model";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -240,10 +242,10 @@ class Mi extends BaseController {
 		$data['description']= "Design & HTML is second step in MI for SDLC which make the basic layout of project";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -260,10 +262,10 @@ class Mi extends BaseController {
 		$data['description']= "Development and Implementation is third step which make the project user interface and implement the code";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -280,10 +282,10 @@ class Mi extends BaseController {
 		$data['description']= "QA & Deploy is the last step for SDLC after this project deploy to the client for use on browser";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -302,10 +304,10 @@ class Mi extends BaseController {
 		$data['description']= "Job opening for Business development officer with 3 years of experience in bidding, business planning etc.";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -324,10 +326,10 @@ class Mi extends BaseController {
 		$data['description']= "Creative Web designer having a golden opportunity to show their skills and talent.";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -346,10 +348,10 @@ class Mi extends BaseController {
 		$data['description']= "We are hiring PHP developer with more than 2 years of experience in programming";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
@@ -368,10 +370,10 @@ class Mi extends BaseController {
 		$data['description']= "We need a dynamic candidate with managerial skills to manage projects and give reason for future growth.";
 		$data['keywords']= "";
 
-//		$detect = new Mobile_Detect();
-//		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
-//			$data['mobile'] = 1;
-//		else
+		$detect = new Mobile_Detect();
+		if ($detect->isMobile() || $detect->isTablet() || $detect->isAndroidOS())
+			$data['mobile'] = 1;
+		else
 			$data['mobile'] = 4;
 
 		echo view('includes/header',$data);
