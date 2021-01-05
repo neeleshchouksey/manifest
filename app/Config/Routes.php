@@ -32,20 +32,9 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-$uri = $this->request->uri;
-$stri = $uri->getSegment(1);
+$routes->setTranslateURIDashes(true);
 
-if(isset($this->request->uri)){
-    $stri1 = str_replace('-', '', $stri);
-    $routes->add('mi/php-development',"Mi::phpDevelopment" );
-    $routes->add('mi/web-designer',"Mi::webDesigner" );
-    $routes->add('mi/business-development-officer',"Mi::businessDevelopmentOfficer" );
-    $routes->add('mi/project-manager',"Mi::projectManager" );
-    $routes->add('overview',"Aboutus::index" );
 
-//    $route['(:any)'] = str_replace('-', '', $stri);
-//    $route['overview'] = "aboutus";
-}
 /**
  * --------------------------------------------------------------------
  * Additional Routing

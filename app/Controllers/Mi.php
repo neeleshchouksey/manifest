@@ -337,7 +337,7 @@ class Mi extends BaseController {
 		echo view('portfolio/related_projects');
 		echo view('includes/footer');
 	}
-	public function phpDevelopment()
+	public function php_development()
 	{
         $db = \Config\Database::connect();
         $commonModel = new CommonModel($db);
