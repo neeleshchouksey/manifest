@@ -10,10 +10,10 @@
                 </div>
             </div>
             <div class="tiltview col">
-                <a href="http://grovemade.com/">
+                
                         <?php $imagePath="assets/images/portfolio/".strtolower(str_replace(' ','-',$project_data['project_name']));?>
                         <img src="<?php echo base_url().'/'.$imagePath.'/'.$project_data['image1'];?>"/>
-                </a>
+               
             </div>
         </li>
         <li>

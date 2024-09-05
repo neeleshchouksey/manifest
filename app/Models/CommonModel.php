@@ -6,9 +6,11 @@ like index page, sign in etc.
 namespace App\Models;
 use CodeIgniter\Database\ConnectionInterface;
 use CodeIgniter\Model;
+ini_set('display_errors', '1');
 
 class CommonModel extends Model
 {
+
     protected $db;
 
     public function __construct(ConnectionInterface &$db)
@@ -33,12 +35,12 @@ class CommonModel extends Model
 
 		if($condition != "")
 		{
-			$rs->getWhere($condition);
+			$rs->where($condition);
 		}
 		
 		if($single_row)
 		{  
-			return $rs->get()->getResultArray();
+			return $rs->get()->getRowArray();
 		}
 		return $rs->get()->getResultArray();
 
@@ -94,9 +96,10 @@ class CommonModel extends Model
 	// This function is used to set up mail configuration..
 	function setMailConfig()
 	{
-		$this->load->library('email');
+        $email = \Config\Services::email();
 
-		$config['smtp_host'] = SMTP_HOST;
+
+        $config['smtp_host'] = SMTP_HOST;
 		$config['smtp_user'] = SMTP_USER;
 		$config['smtp_pass'] = SMTP_PASS;
 		$config['smtp_port'] = SMTP_PORT;
@@ -106,7 +109,7 @@ class CommonModel extends Model
 		$config['charset'] = CHARSET;
 		$config['wordwrap'] = WORD_WRAP;
 
-		$this->email->initialize($config);
+		$email->initialize($config);
 	}
 
 	function sendEmail()

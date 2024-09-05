@@ -6,28 +6,28 @@
             <br>
             <div  class="row-fluid">
                 <div class="span6 shadow-block1">
-                    <div class="border pull-left"> <a href="<?php echo site_url('mi/php-development');?>">
-                        <img  src="<?php echo base_url();?>/assets/images/career/php-tag.jpg"> </a> </div>
+                    <div class="border pull-left"> <a>
+                        <img  src="<?php echo base_url();?>/assets/images/career/hiring-laravel-developer.png"> </a> </div>
                     <div class="job-para">
-                        <a href="<?php echo site_url('mi/php-development');?>">
-                            <h3>PHP Developer : </h3>
+                        <a>
+                            <h3>Laravel Developer</h3>
                         </a>
-                        <p class="justify">Build your career with us in the field of technology you are dreaming about</p><br>
-                        <span ><a href="<?php echo site_url('mi/php-development');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a></span>
+                        <p class="justify">Join a company that values your expertise in Laravel and offers opportunities for growth.</p><br>
+                        <span >Email resume: info@manifestinfotech.com<!--<a href="<?php echo site_url('mi/laravel-developer');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a>--></span>
                     </div>
                 </div>
                 <div class="span6 shadow-block1">
                     <div class="border pull-left">
-                        <a href="<?php echo site_url('mi/web-designer');?>">
-                            <img  src="<?php echo base_url();?>/assets/images/career/designer.jpg">
+                        <a>
+                            <img  src="<?php echo base_url();?>/assets/images/career/hiring-react-js-developer.png">
                         </a>
                     </div>
                     <div class="job-para">
-                        <a href="<?php echo site_url('mi/web-designer');?>">
-                            <h3>Web Designer :</h3>
+                        <a>
+                            <h3>React.JS Developer</h3>
                         </a>
-                        <p class="justify"> You can plan your career with us, that's the right place to make step for it </p><br>
-                        <span ><a href="<?php echo site_url('mi/web-designer');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a></span>
+                        <p class="justify">Work in an agile environment, delivering high-quality React JS projects within deadlines.</p><br>
+                        <span >Email resume: info@manifestinfotech.com<!--<a href="<?php echo site_url('mi/hiring-react-js-developer');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a>--></span>
                     </div>
                 </div>
             </div>
@@ -35,29 +35,84 @@
             <div class="spacer-mini"></div>
             <div  class="row-fluid">
                 <div class="span6 shadow-block1">
-                    <div class="border pull-left"> <a href="<?php echo site_url('mi/business-development-officer');?>">
-                        <img  src="<?php echo base_url();?>/assets/images/career/business-dev.jpg"> </a> </div>
+                    <div class="border pull-left"> <a>
+                        <img  src="<?php echo base_url();?>/assets/images/career/hiring-codeigniter-developer.png"> </a> </div>
                     <div class="job-para">
-                        <a href="<?php echo site_url('mi/business-development-officer');?>">
-                            <h3>Business Development officer :</h3>
+                        <a>
+                            <h3>CodeIgniter Developer</h3>
                         </a>
-                        <p class="justify">If you have a talent then get the opportunity for being a part of our organization</p><br>
-                        <span ><a href="<?php echo site_url('mi/business-development-officer');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a></span>
+                        <p class="justify">Join us in creating elegant and maintainable code using CodeIgniter's MVC architecture.</p><br>
+                        <span >Email resume: info@manifestinfotech.com<!--<a href="<?php echo site_url('mi/business-development-officer');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a>--></span>
                     </div>
                 </div>
                 <div class="span6 shadow-block1">
-                    <div class="border pull-left"> <a href="<?php echo site_url('mi/project-manager');?>">
-                        <img  src="<?php echo base_url();?>/assets/images/career/manager.jpg"> </a> </div>
+                    <div class="border pull-left"> <a>
+                        <img  src="<?php echo base_url();?>/assets/images/career/hiring-python-developer.png"> </a> </div>
                     <div class="job-para">
-                        <a href="<?php echo site_url('mi/project-manager');?>">
-                            <h3>Project Manager :</h3>
+                        <a>
+                            <h3>Python Developer</h3>
                         </a>
-                        <p class="justify"> Our Company provide opportunity for the best Management skills </p><br>
-                        <a href="<?php echo site_url('mi/project-manager');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a>
+                        <p class="justify">Lead and motivate a team of developers, designers, and stakeholders to achieve project objectives.</p><br>
+                        Email resume: info@manifestinfotech.com<!--<a href="<?php echo site_url('mi/project-manager');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i>--></a>
                     </div>
                 </div>
             </div>
             <!---row-2-->
+            <div class="spacer-mini"></div>
+            <div  class="row-fluid">
+                <div class="span6 shadow-block1">
+                    <div class="border pull-left"> <a>
+                        <img  src="<?php echo base_url();?>/assets/images/career/hiring-node-js-developer.png"> </a> </div>
+                    <div class="job-para">
+                        <a>
+                            <h3>Node.JS Developer</h3>
+                        </a>
+                        <p class="justify">Become part of a supportive team that encourages learning and knowledge sharing in Node.js</p><br>
+                        <span >Email resume: info@manifestinfotech.com<!--<a href="<?php echo site_url('mi/php-development');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a>--></span>
+                    </div>
+                </div>
+                <div class="span6 shadow-block1">
+                    <div class="border pull-left">
+                        <a>
+                            <img  src="<?php echo base_url();?>/assets/images/career/hiring-web-designer.png">
+                        </a>
+                    </div>
+                    <div class="job-para">
+                        <a>
+                            <h3>Web/Mobile Designer</h3>
+                        </a>
+                        <p class="justify">Put your design skills to work in a dynamic and collaborative environment.</p><br>
+                        <span >Email resume: info@manifestinfotech.com<!--<a href="<?php echo site_url('mi/web-designer');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a>--></span>
+                    </div>
+                </div>
+            </div>
+            <!---row-3-->
+            <div class="spacer-mini"></div>
+            <div  class="row-fluid">
+                <div class="span6 shadow-block1">
+                    <div class="border pull-left"> <a>
+                        <img  src="<?php echo base_url();?>/assets/images/career/hiring-business-development-manager.png"> </a> </div>
+                    <div class="job-para">
+                        <a>
+                            <h3>Business Development Manager</h3>
+                        </a>
+                        <p class="justify">Strive to exceed sales targets, meet revenue goals, and contribute to the overall success of the company.</p><br>
+                        <span >Email resume: info@manifestinfotech.com<!--<a href="<?php echo site_url('mi/business-development-officer');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a>--></span>
+                    </div>
+                </div>
+                <div class="span6 shadow-block1">
+                    <div class="border pull-left"> <a>
+                        <img  src="<?php echo base_url();?>/assets/images/career/hiring-project-manager.png"> </a> </div>
+                    <div class="job-para">
+                        <a>
+                            <h3>Project Manager</h3>
+                        </a>
+                        <p class="justify"> Our Company provide opportunity for the best Management skills </p><br>
+                        Email resume: info@manifestinfotech.com<!--<a href="<?php echo site_url('mi/project-manager');?>" class="btn pull-left">Detail<i class=" fa fa-arrow-right space-l"></i></a>-->
+                    </div>
+                </div>
+            </div>
+            <!---row-4-->
         </div>
     </div>
 </section>

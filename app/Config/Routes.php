@@ -18,7 +18,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
 $routes->setDefaultNamespace('App\Controllers');
 $routes->setDefaultController('Mi');
 $routes->setDefaultMethod('index');
-$routes->setTranslateURIDashes(false);
+$routes->setTranslateURIDashes(true);
 $routes->set404Override();
 $routes->setAutoRoute(true);
 
@@ -32,7 +32,15 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-$routes->setTranslateURIDashes(true);
+$routes->get('overview', 'Aboutus::index');
+$routes->get('testimonial', 'Mi::testimonial');
+$routes->get('career', 'Mi::career');
+$routes->get('contact-us', 'Mi::contact');
+
+$routes->get('web-designing-development-company', 'Services::web_development');
+$routes->get('responsive-web-designing-company', 'Services::web_design');
+$routes->get('digital-marketing-seo-company', 'Services::digital_marketing');
+
 
 
 /**

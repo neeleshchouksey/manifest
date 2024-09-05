@@ -14,9 +14,11 @@ class Portfolio extends BaseController {
 		$data['title']= 'Manifest Infotech| Company Portfolio';
 		$data['description']= "Take a look for our Portfolio showcase for Web Designing, Development, SEO and Logo design. We convert your dreams into your achievement";
 		$data['keywords']="Web design company, Web Development Company, Web Development Portfolio, Web Design Portfolios, Web Design, Web Development, IT Solution Company";
+
+		//echo '<pre>';print_r($data['all_project_data']);exit;
 		echo view('includes/header',$data);
 		echo view('portfolio/portfolio');
-		echo view('Testimonials-carousel');
+		//echo view('Testimonials-carousel');
 		echo view('includes/footer');
 	}
 	public function project($project_slug='')
@@ -49,20 +51,23 @@ class Portfolio extends BaseController {
 		else
 			$data['mobile'] = 4;
 
-		//echo "<pre>";print_r($data);die;
+		//echo "<pre>";print_r($data['project_data']);die;
 		echo view('includes/header',$data);
 		echo view('portfolio/project-detail');
-		echo view('portfolio/related_projects');
+		//echo view('portfolio/related_projects');
 		echo view('includes/footer');
 	}
 	public function category($category_id)
 	{
-		$data['all_project_data'] = $this->commonmodel->getRecords('portfolio_project','*', array('is_active'=>1, 'del_status'=>0));
-		$data['all_category_data'] = $this->commonmodel->getRecords('portfolio_category','', array('is_active'=>1, 'del_status'=>0));
-		$data['all_posts'] = $this->mimodel->getallpost();
-		$data['category_data'] = $this->commonmodel->getRecords('portfolio_category', '*', array('category_id'=>$category_id), '', true);
+		$db = \Config\Database::connect();
+        $commonModel = new CommonModel($db);
+        $miModel = new MiModel($db);
+		$data['all_project_data'] = $commonModel->getRecords('portfolio_project','*', array('is_active'=>1, 'del_status'=>0));
+		$data['all_category_data'] = $commonModel->getRecords('portfolio_category','', array('is_active'=>1, 'del_status'=>0));
+		$data['all_posts'] = $miModel->getallpost();
+		$data['category_data'] = $commonModel->getRecords('portfolio_category', '*', array('category_id'=>$category_id), '', true);
 		//echo '<pre>';print_r($data['category_data']);exit;
-		$data['all_project_data'] = $this->commonmodel->getRecords('portfolio_project','*', array('category_id'=>$data['category_data']['category_id'],'is_active'=>1, 'del_status'=>0));
+		$data['all_project_data'] = $commonModel->getRecords('portfolio_project','*', array('category_id'=>$data['category_data']['category_id'],'is_active'=>1, 'del_status'=>0));
 		//echo '<pre>';print_r($data['all_project_data']);exit;
 			$data['title']= $data['category_data']['category'].' | Manifest Infotech';
 		//echo '<pre>';print_r($data['title']);exit;

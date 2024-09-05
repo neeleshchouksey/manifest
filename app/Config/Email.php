@@ -33,42 +33,42 @@ class Email extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $protocol = 'mail';
+	public $protocol = 'smtp';
 
 	/**
 	 * The server path to Sendmail.
 	 *
 	 * @var string
 	 */
-	public $mailPath = '/usr/sbin/sendmail';
+	public $mailPath = MAILPATH;
 
 	/**
 	 * SMTP Server Address
 	 *
 	 * @var string
 	 */
-	public $SMTPHost;
+	public $SMTPHost = SMTP_HOST;
 
 	/**
 	 * SMTP Username
 	 *
 	 * @var string
 	 */
-	public $SMTPUser;
+	public $SMTPUser = SMTP_USER;
 
 	/**
 	 * SMTP Password
 	 *
 	 * @var string
 	 */
-	public $SMTPPass;
+	public $SMTPPass = SMTP_PASS;
 
 	/**
 	 * SMTP Port
 	 *
 	 * @var integer
 	 */
-	public $SMTPPort = 25;
+	public $SMTPPort = SMTP_PORT;
 
 	/**
 	 * SMTP Timeout (in seconds)
@@ -96,7 +96,7 @@ class Email extends BaseConfig
 	 *
 	 * @var boolean
 	 */
-	public $wordWrap = true;
+	public $wordWrap = WORD_WRAP;
 
 	/**
 	 * Character count to wrap at
@@ -110,14 +110,14 @@ class Email extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $mailType = 'text';
+	public $mailType = MAILTYPE;
 
 	/**
 	 * Character set (utf-8, iso-8859-1, etc.)
 	 *
 	 * @var string
 	 */
-	public $charset = 'UTF-8';
+	public $charset = "utf-8";
 
 	/**
 	 * Whether to validate the email address

@@ -44,7 +44,7 @@
 <script type="text/javascript" src="<?php echo base_url();?>/assets/js/jquery-1.8.3.min.js"></script>
 <!-- <script type="text/javascript" src="assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="assets/js/submenu.js"></script> -->
-<script type="text/javascript" src="<?php echo base_url();?>/assets/js/function.js"></script>
+<!--<script type="text/javascript" src="<?php echo base_url();?>/assets/js/function.js"></script>-->
 <!-- <script src="assets/js/jquery.js"></script>
 <script src="assets/js/jquery_003.js"></script> -->
 <script src="<?php echo base_url();?>/assets/js/jquery.flexslider-min.js"></script>
@@ -52,9 +52,11 @@
 <script src="<?php echo base_url();?>/assets/js/jquery.scrollme.min.js"></script>
 <script src="<?php echo base_url();?>/assets/js/analytics.js"></script>
 <script type="text/javascript">
-    $(window).scroll(function() {
+    $(window).scroll(function() 
+    {
       var scroll = $(window).scrollTop();
-      if (scroll >= 100) {
+      if (scroll >= 100) 
+      {
         $(".second-header").show();
         $(".first-header").hide();
         $(".p-header").css({'background':'rgba(255,555,255,1)','box-shadow':'0 1px 5px rgba(0, 0, 0, 0.5)'});
@@ -114,11 +116,11 @@ $( document ).ready(function() {
 	site_url="<?php echo site_url(); ?>";
 </script>
 
-<script type="text/javascript">
-  var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};
-  var d=document;
-  s=d.createElement("script"); s.type="text/javascript"; s.defer=true; s.src="https://salesiq.zoho.com/manifestinfotech/float.ls?embedname=manifestinfotech"; t=d.getElementsByTagName("script")[0]; t.parentNode.insertBefore(s,t);
-</script>
+// <script type="text/javascript">
+//   var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};
+//   var d=document;
+//   s=d.createElement("script"); s.type="text/javascript"; s.defer=true; s.src="https://salesiq.zoho.com/manifestinfotech/float.ls?embedname=manifestinfotech"; t=d.getElementsByTagName("script")[0]; t.parentNode.insertBefore(s,t);
+// </script>
 <script>
     $(document).ready(function( ) {
     var offsetHeight =100;
@@ -204,8 +206,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="container">
         <div class="pagetop visible-tablet visible-desktop">
             <ul class="pull-right">
-                <li><a href="JavaScript:void(0)"><i class="fa fa-phone"></i>&nbsp;+91 731 3511531</a></li>
-                <li><a href="JavaScript:void(0)"><i class="fa fa-phone"></i>&nbsp;+91 7771983222</a></li>
+                <li><a href="JavaScript:void(0)"><i class="fa fa-phone"></i>&nbsp;+91 9111444776</a></li>
+                <li><a href="JavaScript:void(0)"><i class="fa fa-phone"></i>&nbsp;+91 9039094246</a></li>
                 <!-- <li><a href="<?php echo site_url('mi/sitemap');?>">Site Map</a></li> -->
                  <li class="hailight"><a id="call-to-action" class="" data-target="#myModal" data-toggle="modal" href="javascript:void(0)">Get a Quote</a>
                 </li>
@@ -251,34 +253,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="p-menu-nav first-header no-responsive">
       <ul>
         <!--<li class="navigation_menu"><a class="scroll navi_menu" href="index.php">HOME</a></li>-->
-        <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('aboutus');?>">Overview</a></li>
+        <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('overview');?>">Overview</a></li>
         <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('services');?>">Services</a></li>
         <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('solutions');?>">Solutions</a></li>
         <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('portfolio');?>">Portfolio</a></li>
-        <!-- <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url();?>blog">Blog</a></li> -->
-        <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('mi/testimonial');?>">Testimonial</a></li>
-        <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('mi/career');?>">Career</a></li>
-        <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('mi/contact');?>">Contact Us</a></li>
+        <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('testimonial');?>">Testimonial</a></li>
+        <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('career');?>">Career</a></li>
+        <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url();?>blog">Blog</a></li>
+        <li class="navigation_menu"><a class="scroll navi_menu" href="<?php echo site_url('contact-us');?>">Contact Us</a></li>
       </ul>
     </div>
 
     <div class="p-menu-nav second-header">
       <ul>
           <li><a href="<?php echo site_url('portfolio');?>">Portfolio</a></li>
-          <li><a href="<?php echo site_url('mi/contact');?>" >Contact Us</a></li>
+          <li><a href="<?php echo site_url('contact-us');?>" >Contact Us</a></li>
         <!--<li> <a class="btn-call-action" style="color:#333 !important; border-color:#333;" href="#0"><i class="fa fa-bars"></i></a></li>-->
       </ul>
       <div class="r-slide-bar">
         <a href="" id="menuToggle" class="menuToggle" title="show menu"><span class="navClosed"><i></i></span></a>
        <!-- <a  href="index.php">Home</a>-->
-        <a  href="<?php echo site_url('aboutus');?>">OVERVIEW</a>
+        <a  href="<?php echo site_url('overview');?>">OVERVIEW</a>
         <a  href="<?php echo site_url('services');?>">SERVICES</a>
         <a  href="<?php echo site_url('solutions');?>">SOLUTIONS</a>
         <a  href="<?php echo site_url('portfolio');?>">PORTFOLIO</a>
+        <a  href="<?php echo site_url('testimonial');?>">TESTIMONIAL</a>
+        <a  href="<?php echo site_url('career');?>">CAREER</a>
         <a  href="<?php echo site_url();?>blog">BLOG</a>
-        <a  href="<?php echo site_url('mi/testimonial');?>">TESTIMONIAL</a>
-        <a  href="<?php echo site_url('mi/career');?>">CAREER</a>
-        <a  href="<?php echo site_url('mi/contact');?>">CONTACT US</a>
+        <a  href="<?php echo site_url('contact-us');?>">CONTACT US</a>
         <hr>
       </div>
     </div>
@@ -287,14 +289,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="r-slide-bar">
             <a href="" id="menuToggle" class="menuToggle" title="show menu"><span class="navClosed"><i></i></span></a>
             <!-- <a  href="index.php">Home</a>-->
-            <a  href="<?php echo site_url('aboutus');?>">OVERVIEW</a>
+            <a  href="<?php echo site_url('overview');?>">OVERVIEW</a>
             <a  href="<?php echo site_url('services');?>">SERVICES</a>
             <a  href="<?php echo site_url('solutions');?>">SOLUTIONS</a>
             <a  href="<?php echo site_url('portfolio');?>">PORTFOLIO</a>
+            <a  href="<?php echo site_url('testimonial');?>">TESTIMONIAL</a>
+            <a  href="<?php echo site_url('career');?>">CAREER</a>
             <a  href="<?php echo site_url();?>blog">BLOG</a>
-            <a  href="<?php echo site_url('mi/testimonial');?>">TESTIMONIAL</a>
-            <a  href="<?php echo site_url('mi/career');?>">CAREER</a>
-            <a  href="<?php echo site_url('mi/contact');?>">CONTACT US</a>
+            <a  href="<?php echo site_url('contact-us');?>">CONTACT US</a>
         </div>
     </div>
 

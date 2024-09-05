@@ -8,11 +8,11 @@
 				<div class="span2 footer_grid pull-left">
 					<ul class="unstyled">
 					  <li class="mar_bootum bac_image2"><h4 class="section-footer-heading">Technologies</h4></li>
-						<li><a href="<?php echo base_url('blog/python-technology/');?>">Python</a></li>
-						<li><a href="<?php echo base_url('blog/php-technology/');?>">PHP</a></li>
-						<li><a href="<?php echo base_url('blog/asp-net-technology/');?>">ASP.Net</a></li>
-						<li><a href="<?php echo base_url('blog/android-app-development/');?>">Android</a></li>
-						<li><a href="<?php echo base_url('blog/ipad-app-development/');?>">iOS</a></li>
+						<li><a href="<?php echo base_url('blog/python-technology');?>">Python</a></li>
+						<li><a href="<?php echo base_url('blog/php-technology');?>">PHP</a></li>
+						<li><a href="<?php echo base_url('blog/asp-net-technology');?>">ASP.Net</a></li>
+						<li><a href="<?php echo base_url('blog/android-app-development');?>">Android</a></li>
+						<li><a href="<?php echo base_url('blog/ios-app-development');?>">iOS</a></li>
 						<li><a href="<?php echo base_url('blog/web-design/');?>">Web Design</a></li>
 					</ul>
 				</div>
@@ -20,13 +20,13 @@
 				<div class="span2 footer_grid pull-left">
 					<ul class="unstyled">
 						<li class="mar_bootum bac_image"><h4 class="section-footer-heading">Open Source</h4></li>
-						<li><a href="<?php echo base_url('blog/cakephp-development/');?>">Laravel</a></li>
-						<li><a href="<?php echo base_url('blog/codeigniter-development/');?>">Codeigniter</a></li>
-						<!-- <li><a href="<?php echo base_url('blog/yii-development/');?>">Yii</a></li> -->
-						<li><a href="<?php echo base_url('blog/zend-development/');?>">Zend</a></li>
-						<li><a href="<?php echo base_url('blog/wordpress-customization/');?>">CakePHP</a></li>
-						<li><a href="<?php echo base_url('blog/joomla-customization/');?>">Wordpress</a></li>
-						<li><a href="<?php echo base_url('blog/drupal-customization/');?>">Drupal</a></li>
+						<li><a href="<?php echo base_url('blog/laravel-web-development-framework');?>">Laravel</a></li>
+						<li><a href="<?php echo base_url('blog/codeigniter-web-development-framework');?>">Codeigniter</a></li>
+						<!-- <li><a href="<?php echo base_url('blog/yii-development');?>">Yii</a></li> -->
+						<li><a href="<?php echo base_url('blog/zend-web-development-framework');?>">Zend</a></li>
+						<li><a href="<?php echo base_url('blog/cakephp-web-development-framework');?>">CakePHP</a></li>
+						<li><a href="<?php echo base_url('blog/wordpress-cms-customization');?>">Wordpress</a></li>
+						<li><a href="<?php echo base_url('blog/drupal-cms-customization');?>">Drupal</a></li>
 						
 					</ul>
 				</div>
@@ -52,22 +52,30 @@
 						<li><a href="<?php echo site_url('mi/offering');?>">offerings</a></li>-->
 					</ul>
 				</div>
-				<div class="span4 footer_grid pull-left">
+				<div class="span4 footer_grid pull-left" style="width: 380px;">
 					<ul class="unstyled font_color">
 						<li class="mar_bootum" style="padding: 7px 0px;"><h4>Contact Us</h4></li>
 						<li><a href="JavaScript:void(0)"><i class="fa fa-map-marker ic-contact"></i>
-						105 Prakash Tower,Infront of Rani Sati Gate YN Road Indore,India</a></li>
+						B-319, near Iglookids school, Tulsi Nagar, Indore, M.P., India</a></li>
 						
-						<li><a href="mailto:info@manifestinfotech.com"><i class="fa fa-envelope ic-contact"></i> info@manifestinfotech.com, hr@manifestinfotech.com </a></li>
-						<li><a href="JavaScript:void(0)"><i class="fa fa-phone ic-contact"></i> +91 731 3511531, +91 7771983222 </a></li>
-						<li><a href="JavaScript:void(0)"><i class="fa fa-skype ic-contact"></i> Manifestinfotech</a></li>
+						<li><a href="mailto:info@manifestinfotech.com"><i class="fa fa-envelope ic-contact"></i> nchouksey@manifestinfotech.com, info@manifestinfotech.com</a></li>
+						<li><a href="JavaScript:void(0)"><i class="fa fa-phone ic-contact"></i> +91 731 3582993, +91 9111444776 </a></li>
+						<!--<li><a href="JavaScript:void(0)"><i class="fa fa-skype ic-contact"></i> live:76bad32bff24d30d</a>-->
+						<!--</li>-->
+						
+						<li>
+                          <a href="skype:live:76bad32bff24d30d?chat">
+                            <i class="fa fa-skype ic-contact"></i> live:76bad32bff24d30d
+                          </a>
+                        </li>
 						<li>
 							<hr>
 							<ul class="p-share">
 								<li><a href="https://www.facebook.com/manifestinfotech" target="_blank" Title="Facebook"><i class="fa fa-facebook footer-social"></i></a></li>
-								<li><a href="https://twitter.com/ManifestInfotec" target="_blank" Title="Twitter"><i class="fa fa-twitter footer-social"></i></a></li>
-								<li><a href="https://plus.google.com/+Manifestinfotech/about" target="_blank" Title="Google+"><i class="fa fa-google-plus footer-social"></i></a></li>
+								<li><a href="https://twitter.com/Manifest_info" target="_blank" Title="Twitter"><i class="fa fa-twitter footer-social"></i></a></li>
+								<!--<li><a href="https://plus.google.com/+Manifestinfotech/about" target="_blank" Title="Google+"><i class="fa fa-google-plus footer-social"></i></a></li>-->
 								<li><a href="https://in.linkedin.com/company/manifest-infotech" target="_blank" Title="Linkedin"><i class="fa  fa-linkedin footer-social"></i></a></li>
+								<li><a href="https://www.instagram.com/manifestinfotech/" target="_blank" Title="Instagram"><i class="fa  fa-instagram footer-social"></i></a></li>
 								<li><a href="https://www.pinterest.com/archananchoukse/" target="_blank" Title="Pinterest"><i class="fa fa-pinterest footer-social"></i></a></li>
 							</ul>
 						</li>
@@ -100,6 +108,7 @@
             </div>
             <div class="controls">
                 <button id="contact-submit" onclick="send_msg('fullname','email','telphone','subject','message',1,'popupsuccessmsg')" type="button" class="color_back_button btn   pull-right">Send Now</button>
+                <button id="loading-btn" type="button" class="color_back_button btn pull-right d-none" disabled>Loading...</button>
             </div>
         </form>
     </div>
@@ -115,7 +124,7 @@
 		<div class="p-contact-info">
 			<ul>
 				<li class="align-center"><a href="mailto:info@manifestinfotech.com"><i class="fa fa-envelope ic-contact"></i>info@manifestinfotech.com </a></li>
-				<li class="align-center"><a href="JavaScript:void(0)"><i class="fa fa-phone ic-contact"></i>+91 7771983222</a></li>
+				<li class="align-center"><a href="JavaScript:void(0)"><i class="fa fa-phone ic-contact"></i>+91 9111444776</a></li>
 				<li class="align-center"><a href="<?php echo site_url('mi/sitemap');?>"><i class="fa fa-map-marker ic-contact"></i> Site Map</a></li>
             </ul>
 		</div>
@@ -133,7 +142,7 @@
 		</div> -->
 		<div class="p-info-row">
 			<div class="p-contact-info">
-				<p class="p-copyright"><span class="display-res">© 2017 Manifest Infotech Pvt. Ltd.</span> <span class="divider display-none">|</span> <span class="display-res">All rights reserved.</p>
+				<p class="p-copyright"><span class="display-res">© 2023 Manifest Infotech Pvt. Ltd.</span> <span class="divider display-none">|</span> <span class="display-res">All rights reserved.</p>
 			</div>
 		</div>
 	</div>
@@ -219,6 +228,18 @@ var marker=new google.maps.Marker({
 google.maps.event.addDomListener(window, 'load', initialize);
 //window.onload = loadScript;
 </script>
+<style>
+    .left-float{
+         right: auto !important;
+         left: 0 !important;
+    }
+    .d-none{
+        display:none !important;
+    }
+    #loading-btn{
+        margin-top:9px;
+    }
+</style>
 <script>
  $(window).scroll(function(){
 
@@ -240,6 +261,70 @@ google.maps.event.addDomListener(window, 'load', initialize);
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-58518073-1', 'auto');
   ga('send', 'pageview');
+  
+  function send_msg(e,r,a,l,t,s,o){
+      console.log("calling contact")
+
+	$("#"+o).text("");
+	var n=checkFnameValidation(e,s);
+	var c=checkEmailValidation(r,s);
+	var d=checkPhoneValidation(a,s);
+	var i=$.trim($("#"+l).val());
+	var h=$.trim($("#"+t).val());
+	console.log(n,c,d,i,h)
+	if(n==0&&c==0&&d==0){
+    	$("#contact-submit").addClass('d-none');
+    	$("#loading-btn").removeClass('d-none');
+	    console.log("in if");
+	    var data="fname="+fname+"&email="+email+"&phone="+phone+"&subject="+i+"&msg="+h;
+    	$.ajax({
+    		type:"POST",
+    		url:site_url+"/mi/emailsender",
+    		data:data,
+    		success:function(s){
+    			$("#popupsuccessmsg").css("display","block");
+            	$("#contact-submit").removeClass('d-none');
+            	$("#loading-btn").addClass('d-none');
+    			$("#"+e).val("");
+    			$("#"+r).val("");
+    			$("#"+a).val("");
+    			$("#"+l).val("");
+    			$("#"+t).val("");
+    			$("#"+o).text(s);
+    			setTimeout(function(){
+    				$("#"+o).css("display","none")},5000),
+    				"popupsuccessmsg"==o&&setTimeout(function(){
+    					$("#toggle").trigger("click")},5000)
+    				}
+    			})
+    	}else{
+    	    console.log("in else");
+        $("#contact-submit").removeClass('d-none');
+    	$("#loading-btn").addClass('d-none');
+    	}
+	}
+	
+	function checkPhoneValidation(e,r)
+	{
+		$("#"+e).css("border",""),strRegExp="[^0-9]";
+		var a=$.trim($("#"+e).val());
+		return this.phone=a,0==a.length?($("#"+e).attr("placeholder","Phone Number"),0):10==a.length?(charpos=a.search(strRegExp),charpos>=0?($("#"+e).css("border",r+"px solid red"),$("#"+e).attr("placeholder","Invalid phone no."),err1=1):0):($("#"+e).css("border",r+"px solid red"),$("#"+e).val(""),$("#"+e).attr("placeholder","Invalid phone no."),err1=1)
+	}
+	function checkEmailValidation(e,r){
+		$("#"+e).css("border","");
+		var a=$.trim($("#"+e).val());
+		this.email=a;
+		var l=a.indexOf("@"),t=a.lastIndexOf(".");
+		return a.length<=0?($("#"+e).css("border",r+"px solid red"),$("#"+e).attr("placeholder","Please enter email."),err1=1):1>l||l+2>t||t+2>=a.length?($("#"+e).css("border",r+"px solid red"),$("#"+e).val(""),$("#"+e).attr("placeholder","Invalid email."),err1=1):0
+	}
+
+	function checkFnameValidation(e,r){
+		$("#"+e).css("border",""),strRegExp="[^A-Za-z ]";
+		var a=$.trim($("#"+e).val());
+		return this.fname=a,a.length>=3?(charpos=a.search(strRegExp),charpos>=0?($("#"+e).css("border",r+"px solid red"),$("#"+e).addClass("intro"),$("#"+e).val(""),$("#"+e).attr("placeholder","Only alphabets are allow"),err1=1):0):0==a.length?($("#"+e).css("border",r+"px solid red"),$("#"+e).val(""),$("#"+e).attr("placeholder","Please enter name"),err1=1):(charpos=a.search(strRegExp),charpos>=0?($("#"+e).css("border",r+"px solid red"),$("#"+e).addClass("intro"),$("#"+e).val(""),$("#"+e).attr("placeholder","Only alphabets are allow"),err1=1):($("#"+e).css("border",r+"px solid red"),$("#"+e).val(""),$("#"+e).attr("placeholder","Enter atleast 3 characters."),err1=1))
+	}
 </script>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-827e131f-f731-4fa1-b263-aa482a662d27"></div>
 </body>
 </html>

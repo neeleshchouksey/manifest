@@ -38,7 +38,7 @@
         left: 0;
         bottom: 0;
         cursor: pointer;
-        margin: -12px 0;
+        /*margin: -12px 0;*/
         -webkit-transition: bottom .3s ease-in-out;
         -moz-transition: bottom .3s ease-in-out;
         -o-transition: bottom .3s ease-in-out;

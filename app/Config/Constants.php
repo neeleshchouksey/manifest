@@ -75,3 +75,61 @@ defined('EXIT_USER_INPUT')     || define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       || define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+
+/*
+|--------------------------------------------------------------------------
+| File and Directory Modes
+|--------------------------------------------------------------------------
+|
+| These prefs are used when checking and setting modes when working
+| with the file system.  The defaults are fine on servers with proper
+| security, but you may wish (or even need) to change the values in
+| certain environments (Apache running a separate process for each
+| user, PHP under CGI with Apache suEXEC, etc.).  Octal values should
+| always be used to set the mode correctly.
+|
+*/
+define('FILE_READ_MODE', 0644);
+define('FILE_WRITE_MODE', 0666);
+define('DIR_READ_MODE', 0755);
+define('DIR_WRITE_MODE', 0777);
+
+/*
+|--------------------------------------------------------------------------
+| File Stream Modes
+|--------------------------------------------------------------------------
+|
+| These modes are used when working with fopen()/popen()
+|
+*/
+
+define('FOPEN_READ', 'rb');
+define('FOPEN_READ_WRITE', 'r+b');
+define('FOPEN_WRITE_CREATE_DESTRUCTIVE', 'wb'); // truncates existing file data, use with care
+define('FOPEN_READ_WRITE_CREATE_DESTRUCTIVE', 'w+b'); // truncates existing file data, use with care
+define('FOPEN_WRITE_CREATE', 'ab');
+define('FOPEN_READ_WRITE_CREATE', 'a+b');
+define('FOPEN_WRITE_CREATE_STRICT', 'xb');
+define('FOPEN_READ_WRITE_CREATE_STRICT', 'x+b');
+
+
+// CONSTANTS for mail
+define('SMTP_HOST', 'smtp.gmail.com'); //mail.manifestinfotech.com
+define('SMTP_USER', 'manifest.prateek@gmail.com'); //neelesh@manifestinfotech.com
+define('SMTP_PASS', 'qrfdchohmzwkiznr'); //toM{T+c&pHdB
+define('SMTP_PORT', '587');
+define('PROTOCOL', 'sendmail');
+define('MAILPATH', '/usr/sbin/sendmail');
+define('MAILTYPE', 'html');
+define('CHARSET', 'iso-8859-1');
+define('WORD_WRAP', TRUE);
+define('FROM_EMAIL', 'manifest.prateek@gmail.com');
+define('TO_EMAIL', 'nchouksey@manifestinfotech.com');
+define('FROM_NO_REPLY', '');
+define('FROM_NAME', 'Admin');
+define('SUPPORT_EMAIL', '');
+
+
+/* End of file constants.php */
+/* Location: ./application/config/constants.php */

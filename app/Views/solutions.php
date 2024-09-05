@@ -21,18 +21,18 @@
 				<div class="row-fluid margin-b-25">
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/healthcare.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>Healthcare</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>Our company offers a Health Care Website that effectively addresses cost and complexity challenges while prioritizing user-friendly software for our clients.</p>
                                 </div>
                             </a>
                         </figure>
                     </div>
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/realestate.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>Real estate</h2>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/sport.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>Sports</h2>
@@ -56,7 +56,7 @@
                 <div class="row-fluid margin-b-25">
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/classified.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>Classified</h2>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/shipping.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>Shipping</h2>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/social.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>Social Networking</h2>
@@ -91,7 +91,7 @@
                 <div class="row-fluid margin-b-25">
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/startup.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>Startup</h2>
@@ -102,7 +102,7 @@
                     </div>
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/travel.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>Travel</h2>
@@ -113,7 +113,7 @@
                     </div>
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/restaurant.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>Restaurant</h2>
@@ -126,7 +126,7 @@
                 <div class="row-fluid margin-b-25">
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/ecommerce.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>E-Commerce</h2>
@@ -137,7 +137,7 @@
                     </div>
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/elearning.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>E-Learning</h2>
@@ -148,7 +148,7 @@
                     </div>
                     <div class="span4">
                         <figure class="service-box">
-                            <a href="">
+                            <a href="" onclick="return false;">
                                 <img src="<?php echo base_url();?>/assets/images/solutions/crm.jpg" alt="" class="img-responsive">
                                 <div class="pos-tb-center">
                                     <h2>CRM</h2>

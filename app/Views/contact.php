@@ -23,8 +23,8 @@
                 <div class="span4">
                     <h3> INDORE</h3>
                     <address>
-                        105 Prakash Tower,YN Road<br>
-                        Near Rani Sati Gate, Indore,<br>
+                        B-319, near Iglookids school<br>
+                        Tulsi Nagar, Indore, M.P.<br>
                         India
                     </address>
                 </div>
@@ -48,18 +48,19 @@
             <div class="col-md-4 address-col-2">
                 <h3>Contact Information</h3>
                 <address>
-                    <span><i class="fa fa-phone"></i> &nbsp;+91 7771983222</span>
-                    <span><i class="fa fa-skype"></i> &nbsp;Manifestinfotech</span>
-                    <span><i class="fa fa-envelope"></i> &nbsp;info@manifestinfotech.com</span>
+                    <span><i class="fa fa-phone"></i> &nbsp;+91 9111444776</span>
+                    <span><i class="fa fa-skype"></i> &nbsp;live:76bad32bff24d30d</span>
+                    <span><i class="fa fa-envelope"></i> &nbsp;nchouksey@manifestinfotech.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;info@manifestinfotech.com</span>
                 </address>
 
                 <h3>Stay Touch</h3>
                 <address>
                     <ul class="stay-touch">
                         <li><a href="https://www.facebook.com/manifestinfotech" target="_blank" Title="Facebook"><i class="fa  fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/ManifestInfotec" target="_blank" Title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://plus.google.com/+Manifestinfotech/about" target="_blank" Title="Google+"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="https://www.linkedin.com/pub/manifest-infotech/6a/974/601" target="_blank" Title="Linkedin"><i class="fa  fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/Manifest_info" target="_blank" Title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <!--<li><a href="https://plus.google.com/+Manifestinfotech/about" target="_blank" Title="Google+"><i class="fa fa-google-plus"></i></a></li>-->
+                        <li><a href="https://www.linkedin.com/company/manifestinfotech" target="_blank" Title="Linkedin"><i class="fa  fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/manifestinfotech/" target="_blank" Title="Instagram"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.pinterest.com/archananchoukse/" target="_blank" Title="Pinterest"><i class="fa fa-pinterest" Title="Pinterest"></i></a></li>
                     </ul>
                 </address>

@@ -23,9 +23,12 @@ class Services extends BaseController {
 		echo view('portfolio/related_projects');
 		echo view('includes/footer');
 	}
-	public function webDesign()
+	public function web_design()
 	{
-		$data['all_project_data'] = $this->commonmodel->getRecords('portfolio_project','*',array('is_active'=>1, 'del_status'=>0));
+	    $db = \Config\Database::connect();
+        $commonModel = new CommonModel($db);
+        
+	    $data['all_project_data'] = $commonModel->getRecords('portfolio_project','*',array('is_active'=>1, 'del_status'=>0));
 
 		$data['title']= 'Responsive Web Design  | Website Design - Manifest Infotech';
 		$data['description']= "Manifest infotech provides services of web designing and development services in India, web design agency, web page and website creation, responsive design.";
@@ -42,10 +45,12 @@ class Services extends BaseController {
 		echo view('portfolio/related_projects');
 		echo view('includes/footer');
 	}
-	public function webDevelopment()
+	public function web_development()
 	{
-		$data['all_project_data'] = $this->commonmodel->getRecords('portfolio_project','*',array('is_active'=>1, 'del_status'=>0));
-
+		$db = \Config\Database::connect();
+        $commonModel = new CommonModel($db);
+        
+	    $data['all_project_data'] = $commonModel->getRecords('portfolio_project','*',array('is_active'=>1, 'del_status'=>0));
 		$data['title']= 'Web Development | Web Designing Services - Manifest Infotech';
 		$data['description']= "Manifest infotech provides services of web designing and development services in India, web design agency, web page and website creation, responsive design.";
 		$data['keywords']= "Web Development Services, Web Designing Services In India, Web Development Services Near Me, Web Development Service Provider, Web Development Services  In India, Web Development, Web Designing, Website Design, Web Page Design, Website Design Company, Responsive Design, Web Design Agency, Web Design Company, Responsive Web Design, Web Development Company, Website Creation, Ecommerce website development.";
@@ -63,7 +68,10 @@ class Services extends BaseController {
 	}
 	public function seo()
 	{
-		$data['all_project_data'] = $this->commonmodel->getRecords('portfolio_project','*',array('is_active'=>1, 'del_status'=>0));
+		$db = \Config\Database::connect();
+        $commonModel = new CommonModel($db);
+        
+	    $data['all_project_data'] = $commonModel->getRecords('portfolio_project','*',array('is_active'=>1, 'del_status'=>0));
 		$data['title']= 'Seo | Manifest Infotech';
 		$data['description']= "Search Engine Optimization Services - We are using white hat technique to improve page ranking of websites for better traffic on website";
 		$data['keywords']= "search engine optimisation services, seo website, website seo services,website seo analysis, seo services, organic seo services";
@@ -79,9 +87,12 @@ class Services extends BaseController {
 		echo view('portfolio/related_projects');
 		echo view('includes/footer');
 	}
-	public function digitalMarketing()
+	public function digital_marketing()
 	{
-		$data['all_project_data'] = $this->commonmodel->getRecords('portfolio_project','*',array('is_active'=>1, 'del_status'=>0));
+		$db = \Config\Database::connect();
+        $commonModel = new CommonModel($db);
+        
+	    $data['all_project_data'] = $commonModel->getRecords('portfolio_project','*',array('is_active'=>1, 'del_status'=>0));
 		$data['title']= 'Digital Marketing | Manifest Infotech';
 		$data['description']= "Digital Marketing is the medium to attract and manage customers through various channels";
 		$data['keywords']= "Affiliate Marketing, Email marketing, Pay per click marketing, Search engine optimization";

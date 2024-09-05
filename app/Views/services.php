@@ -87,7 +87,7 @@
                     <div class="pull-left">
                         <ul class="ca-menu">
                             <li>
-                                <a href="<?php echo site_url('services/web-design');?>">
+                                <a href="<?php echo site_url('responsive-web-designing-company');?>">
                                     <span class="ca-icon"><i class="fa fa-desktop"></i></span>
                                     <div class="ca-content">
                                         <h3 class="ca-main">Responsive Web Design</h2>
@@ -96,7 +96,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo site_url('services/web-design');?>">
+                                <a href="<?php echo site_url('responsive-web-designing-company');?>">
                                     <span class="ca-icon"><i class="fa fa-mobile mob-big"></i></span>
                                     <div class="ca-content">
                                         <h3 class="ca-main">Mobile App Design</h2>
@@ -109,7 +109,7 @@
     				<div class="pull-left margin-left-10">
                         <ul class="ca-menu">
                             <li>
-                                <a href="<?php echo site_url('services/web-design');?>">
+                                <a href="<?php echo site_url('responsive-web-designing-company');?>">
                                     <span class="ca-icon"><i class="fa fa-paint-brush"></i></span>
                                     <div class="ca-content">
                                         <h3 class="ca-main">Logo & Banner Design</h2>
@@ -118,7 +118,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo site_url('services/web-design');?>">
+                                <a href="<?php echo site_url('responsive-web-designing-company');?>">
                                     <span class="ca-icon"><i class="fa fa-video-camera"></i></span>
                                     <div class="ca-content">
                                         <h3 class="ca-main">2D/3D Explainer Video</h2>
@@ -148,7 +148,7 @@
                     <div class="pull-left">
                         <ul class="ca-menu">
                             <li>
-                                <a href="services/digital-marketing">
+                                <a href="digital-marketing-seo-company">
                                     <span class="ca-icon"><i class="fa fa-search"></i></span>
                                     <div class="ca-content">
                                         <h2 class="ca-main">Search Engine Optimizaion</h2>
@@ -157,7 +157,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="services/digital-marketing">
+                                <a href="digital-marketing-seo-company">
                                     <span class="ca-icon"><i class="fa fa-link"></i></span>
                                     <div class="ca-content">
                                         <h2 class="ca-main">Social Media Marketing</h2>
@@ -170,7 +170,7 @@
     				<div class="pull-left margin-left-10">
                         <ul class="ca-menu">
                             <li>
-                                <a href="services/digital-marketing">
+                                <a href="digital-marketing-seo-company">
                                     <span class="ca-icon"><i class="fa fa-line-chart"></i></span>
                                     <div class="ca-content">
                                         <h2 class="ca-main">Branding & Advertising</h2>
